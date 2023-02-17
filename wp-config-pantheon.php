@@ -46,6 +46,7 @@ define('AUTH_SALT', $_ENV['AUTH_SALT']);
 define('SECURE_AUTH_SALT', $_ENV['SECURE_AUTH_SALT']);
 define('LOGGED_IN_SALT', $_ENV['LOGGED_IN_SALT']);
 define('NONCE_SALT', $_ENV['NONCE_SALT']);
+define('NO_USE', 'NO_USE');
 /**#@-*/
 
 /** A couple extra tweaks to help things run well on Pantheon. **/
